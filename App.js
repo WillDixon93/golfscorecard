@@ -3,17 +3,19 @@ import React, { useState, useEffect } from 'react';
 import { FlatList, StyleSheet, Text, View, Pressable, Alert } from 'react-native';
 
 export default function App() {
-
+  return (
+    <View>
+      <Text> This is the scorecard </Text>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 30, 
-    backgroundColor: '#483D8B'
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
   },
-  text: {
-    fontSize: 20,
-    margin: 5,
-    color: '#fff'
-  }
-})
-}
+});
+
